@@ -187,8 +187,12 @@ body { font-family: sans-serif; }
   width: 66%;
   height: 300px;
   margin-right: 10px;
-  background: #8C8;
+  background: transparent;
   border-radius: 5px;
   background-position: center center;
   background-size: cover;
+}
+
+.car-program{
+  margin-top: 10%;
 }

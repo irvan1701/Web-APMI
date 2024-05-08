@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
   </head>
   <body>
     <header class="header d-flex justify-content-between">
@@ -41,8 +42,7 @@
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0JETzgQqPnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                             </div>                            
-                        </div>
-                        <p class="text-center" ><i class="bi bi-arrow-down-circle"></i></p>                    
+                        </div>           
                     </div>                    
                 </div>                
             </div>            
@@ -91,7 +91,7 @@
                   </div>
                   <div class="col-md-2 d-flex flex-column justify-content-center ">
                     <p class="mb-3 text-center content"><strong>Partner</strong></p>
-                    <p class="mb-3 text-center content">1000+</p>
+                    <p class="mb-3 text-center content" data-aos="fade-up" data-aos-duration="1000">1000+</p>
                   </div>
                   
                   </div>
@@ -104,16 +104,26 @@
         <div class="overlay d-flex align-items-center justify-content-center h-100">
             <div class="container h-100">
                 <div class="row h-100">
-                  <div class="col-md-6 d-flex flex-column justify-content-center ">
-                    <h1 class="mb-3 text-center content"><strong>APMI GOES TO SCHOOL</strong></h1>
+                  <div class="col-md-6 d-flex flex-column justify-content-center car-program">
+                    <!-- <h1 class="mb-3 text-center content nama-program" ><strong>APMI GOES TO SCHOOL</strong></h1> -->
                     <div class="carousel" data-flickity='{ "bgLazyLoad": true }'>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="asset/background.png"></div>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/640/482/?random"></div>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/640/483/?random"></div>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/640/484/?random"></div>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/640/485/?random"></div>
-                      <div class="carousel-cell" data-flickity-bg-lazyload="https://unsplash.it/640/486/?random"></div>
+                      <div class="carousel-cell" data-flickity-bg-lazyload="asset/background.png">
+                        <img src="asset/background.png" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5 style="margin-bottom: 15%;">Second slide label</h5>
+                          </div>
+                        
+                      </div>
+                      <div class="carousel-cell" data-flickity-bg-lazyload="asset/background.png">
+                        <img src="asset/background.png" alt="" style="width: 100%; height: auto;">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 style="margin-bottom: 15%;">Second slide label</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-cell" data-flickity-bg-lazyload="asset/background.png"><img src="asset/background.png" alt="" style="width: 100%; height: auto;"></div>
                     </div>
+
+                    
                 </div>
                     <div class="col-md-6 d-flex justify-content-center flex-column ">
                         <h1 class="mb-3 text-center content"><strong>Program APMI</strong></h1>
